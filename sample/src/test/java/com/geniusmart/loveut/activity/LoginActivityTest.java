@@ -43,6 +43,7 @@ public class LoginActivityTest {
         passwordView.setText("123");
         button.performClick();
 
+        //进入了下一个activity 且判断不为null
         ShadowApplication application = ShadowApplication.getInstance();
         assertThat("Next activity has started", application.getNextStartedActivity(), is(notNullValue()));
     }
