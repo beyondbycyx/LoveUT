@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\okhttp-3.0.1_6c4a13f1ae29fbf79d4daae798a189678a938639.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-core\4.48\e579bd2905d0399af5029aaaf9817d5fa0ca88a5\ormlite-core-4.48.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\ormlite-core-4.48_0c1f5132b5b67b94438fe9ad50aa92bd0ecc9641.jar" />
+    </item>
+    <item
+        jar="D:\DemoProject\LoveUT-master\sample\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_79acc8de5fcef399b1dc7d5d5b8a717b542fad30.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta4\739e00dea1f0ac04fdb9b6160d667e23cc50a791\retrofit-2.0.0-beta4.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta4_ff5e801f6eef544a1408f5132c8f2c7b6c1a5980.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\gson-2.4_6890e801880bd242164763e4b5f4086b8128ed8f.jar" />
+    </item>
+    <item
+        jar="D:\DemoProject\LoveUT-master\sample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="bedb523dfdb7303a7cc582f9f80e184bed4f9c02">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\instant-run_8db4cc273ae310212dddca4fd59bf5b39e779d01.jar" />
+    </item>
+    <item
+        jar="D:\DemoProject\LoveUT-master\sample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="bb6f6176073eed1915b5e3cbf1b763cbcb040e8d">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\instant-run-bootstrap_d54b247685d5170ea3c45aa02350f8402c543e1b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\4.48\afa06f539a4026c10b247386312aa67404b80a16\ormlite-android-4.48.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\ormlite-android-4.48_f36ef3b839478551d009ded9878c754102a43305.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta4_c6e97f806b29334717938c473af852cff524d6ae.jar" />
+    </item>
+    <item
+        jar="D:\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_0316f670fbc933802b25fa7489b403805bd4c148.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\okio-1.6.0_c410569bd3ae660f2a7eceb3af69efc833b46b70.jar" />
+    </item>
+    <item
+        jar="D:\DemoProject\LoveUT-master\sample\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\DemoProject\LoveUT-master\sample\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_492d367bfda1126c12a6b9f3784e66cc1d23999c.jar" />
+    </item>
+
+</items>

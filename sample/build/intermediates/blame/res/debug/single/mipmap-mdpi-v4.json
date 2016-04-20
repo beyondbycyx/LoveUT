@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\DemoProject\\LoveUT-master\\sample\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\DemoProject\\LoveUT-master\\sample\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DemoProject\\LoveUT-master\\sample\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_camera_white_24dp.png",
+        "source": "D:\\DemoProject\\LoveUT-master\\sample\\src\\main\\res\\mipmap-mdpi\\ic_camera_white_24dp.png"
+    }
+]

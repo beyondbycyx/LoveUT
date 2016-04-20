@@ -1,0 +1,125 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:7:5-62:19
+MERGED from [com.android.support:support-v4:21.0.3] D:\DemoProject\LoveUT-master\sample\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:11:9-45
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:8:9-42
+activity#com.geniusmart.loveut.activity.MainActivity
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:12:9-14:59
+	android:label
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:13:13-50
+activity#com.geniusmart.loveut.activity.LoginActivity
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:15:9-17:60
+	android:label
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:17:13-57
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:16:13-51
+activity#com.geniusmart.loveut.activity.SampleActivity
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:20:13-58
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:19:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:24:27-74
+service#com.geniusmart.loveut.service.SampleIntentService
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:29:13-56
+receiver#com.geniusmart.loveut.receiver.AlarmManagerReceiver
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:32:9-35:39
+	android:enabled
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:34:13-35
+	android:exported
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:33:13-58
+receiver#com.geniusmart.loveut.receiver.BootCompleteReceiver
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:36:9-44:20
+	android:enabled
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:40:13-75
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:37:13-58
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:41:13-43:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:42:17-79
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:42:25-76
+receiver#com.geniusmart.loveut.receiver.MyReceiver
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:45:9-52:20
+	android:enabled
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:47:13-35
+	android:exported
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:46:13-48
+intent-filter#com.geniusmart.loveut.login
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:49:13-51:29
+action#com.geniusmart.loveut.login
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:50:17-70
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:50:25-67
+provider#com.geniusmart.loveut.provider.AccountProvider
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:54:9-57:39
+	android:authorities
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:56:13-72
+	android:exported
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:57:13-36
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:55:13-53
+activity#com.geniusmart.loveut.activity.CallbackActivity
+ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:59:9-61:72
+	android:label
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:61:13-60
+	android:name
+		ADDED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml:60:13-54
+uses-sdk
+INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:21.0.3] D:\DemoProject\LoveUT-master\sample\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
+		INJECTED from D:\DemoProject\LoveUT-master\sample\src\main\AndroidManifest.xml
