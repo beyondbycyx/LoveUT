@@ -84,6 +84,12 @@ public class SampleActivityTest {
         //按钮点击后跳转到下一个Activity
         forwardBtn.performClick();
         Intent expectedIntent = new Intent(sampleActivity, LoginActivity.class);
+
+
+        // 会报错，因为原来的intent 没有put一个字段进去
+        // expectedIntent.putExtra("key", "value");
+
+        //返回最近一次的startActivity 启动的intent
         Intent actualIntent = ShadowApplication.getInstance().getNextStartedActivity();
         assertEquals(expectedIntent, actualIntent);
     }
@@ -95,6 +101,7 @@ public class SampleActivityTest {
     public void testToast() {
         //点击按钮，出现吐司
         toastBtn.performClick();
+        //返回最近一次的toast的内容
         assertEquals(ShadowToast.getTextOfLatestToast(), "we love UT");
     }
 
@@ -105,6 +112,8 @@ public class SampleActivityTest {
     public void testDialog() {
         //点击按钮，出现对话框
         dialogBtn.performClick();
+
+        //获取最近一次的dialog
         AlertDialog latestAlertDialog = ShadowAlertDialog.getLatestAlertDialog();
         assertNotNull(latestAlertDialog);
     }
@@ -131,6 +140,7 @@ public class SampleActivityTest {
      */
     @Test
     public void testResources() {
+        //获取运行时的application
         Application application = RuntimeEnvironment.application;
         String appName = application.getString(R.string.app_name);
         String activityTitle = application.getString(R.string.title_activity_simple);

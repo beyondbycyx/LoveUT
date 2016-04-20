@@ -48,6 +48,9 @@ public class LoginActivityTest {
         assertThat("Next activity has started", application.getNextStartedActivity(), is(notNullValue()));
     }
 
+    /*
+    * 每个Test都是独立的互不影响的，是相互调用也不会存在多线程干扰的问题。
+    * */
     @Test
     public void loginWithEmptyUsernameAndPassword() {
         button.performClick();

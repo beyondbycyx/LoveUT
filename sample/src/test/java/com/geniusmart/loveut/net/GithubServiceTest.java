@@ -31,11 +31,15 @@ public class GithubServiceTest {
 
     @Before
     public void setUp() throws URISyntaxException {
-        //输出日志
-        ShadowLog.stream = System.out;
+        //输出日志, Log.i 的使用
+         ShadowLog.stream = System.out;
         githubService = GithubService.Factory.create();
     }
 
+
+    /*
+    * 请求网络上真的数据进行测试
+    * */
     @Test
     public void publicRepositories() throws IOException {
         Call<List<Repository>> call = githubService.publicRepositories("geniusmart");
