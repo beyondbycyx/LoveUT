@@ -181,7 +181,7 @@ public class SampleActivityTest {
     }
 
     /**
-     * 测试DelayedTask
+     * 测试DelayedTask，异步线程的结果， 如handler发送一个延迟消息
      */
     @Test
     public void testDelayedTask(){

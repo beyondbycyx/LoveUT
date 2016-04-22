@@ -54,6 +54,7 @@ public class MockInterceptor implements Interceptor {
         HttpUrl uri = chain.request().url();
         String path = uri.url().getPath();
 
+        // ^ 代表行的开头，$ 代表行的结尾， () 代表捕获组，
         if (path.matches("^(/users/)+[^/]*+(/repos)$")) {//匹配/users/{username}/repos
             responseString = getResponseString("users_repos.json");
         } else if (path.matches("^(/users/)+[^/]+(/following)$")) {//匹配/users/{username}/following
